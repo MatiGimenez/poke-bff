@@ -1,0 +1,25 @@
+import { PokemonTypeDto } from '../dto/pokemon-list-response.dto';
+
+export const TYPES: Record<string, PokemonTypeDto> = {
+  normal: { name: 'Normal', color: '#A0A2A1' },
+  fighting: { name: 'Lucha', color: '#FF8101' },
+  flying: { name: 'Volador', color: '#82BAEF' },
+  poison: { name: 'Veneno', color: '#923FCC' },
+  ground: { name: 'Tierra', color: '#92501B' },
+  rock: { name: 'Roca', color: '#B0AA82' },
+  bug: { name: 'Bicho', color: '#92A312' },
+  ghost: { name: 'Fantasma', color: '#703F71' },
+  steel: { name: 'Acero', color: '#60A2BA' },
+  fire: { name: 'Fuego', color: '#E72325' },
+  water: { name: 'Agua', color: '#2480F0' },
+  grass: { name: 'Planta', color: '#3DA224' },
+  electric: { name: 'Eléctrico', color: '#FAC200' },
+  psychic: { name: 'Psíquico', color: '#F03F7A' },
+  ice: { name: 'Hielo', color: '#3CD9FF' },
+  dragon: { name: 'Dragón', color: '#4F60E2' },
+  dark: { name: 'Siniestro', color: '#4F3F3D' },
+  fairy: { name: 'Hada', color: '#F071F0' },
+  stellar: { name: 'Astral', color: '#000000' },
+  unknown: { name: '???', color: '#6BA294' },
+  shadow: { name: 'Sombra', color: '#000000' },
+} as const;
